@@ -1,0 +1,757 @@
+<html>
+<head><title></title></head>
+<body>
+<style>
+@font-face {
+    font-family: 'kingthings_foundationregular';
+    src: url('Kingthings_Foundation-webfont.eot');
+    src: url('Kingthings_Foundation-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Kingthings_Foundation-webfont.woff') format('woff'),
+         url('Kingthings_Foundation-webfont.ttf') format('truetype'),
+         url('Kingthings_Foundation-webfont.svg#kingthings_foundationregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caudex';
+    src: url('caudex-regular-webfont.eot');
+    src: url('caudex-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caudex-regular-webfont.woff') format('woff'),
+         url('caudex-regular-webfont.ttf') format('truetype'),
+         url('caudex-regular-webfont.svg#caudexregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caudex';
+    src: url('caudex-bolditalic-webfont.eot');
+    src: url('caudex-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caudex-bolditalic-webfont.woff') format('woff'),
+         url('caudex-bolditalic-webfont.ttf') format('truetype'),
+         url('caudex-bolditalic-webfont.svg#caudexbold') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'caudex';
+    src: url('caudex-italic-webfont.eot');
+    src: url('caudex-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caudex-italic-webfont.woff') format('woff'),
+         url('caudex-italic-webfont.ttf') format('truetype'),
+         url('caudex-italic-webfont.svg#caudexitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'caudex';
+    src: url('caudex-bold-webfont.eot');
+    src: url('caudex-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caudex-bold-webfont.woff') format('woff'),
+         url('caudex-bold-webfont.ttf') format('truetype'),
+         url('caudex-bold-webfont.svg#caudexbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+p, td, li {font-family: caudex, serif;}
+h1, h2, h3, h4, th {font-family: kingthings_foundationregular; text-align: center;}
+.bnb {font-family: kingthings_foundationregular; font-size: 110%}
+th {
+   background-color: #000;
+   color: #fff;
+}
+td {text-align: center;}
+.evenRow, .greyBack {background-color: #bcbec0;}
+.oddRow {background-color: #fff;}
+.funnyFootnote {
+   text-decoration: underline;
+   cursor: pointer;
+   color: #0645ad;
+}
+.example {
+   background-color: #bcbec0;
+   text-align: center;
+   padding: 1em;
+}
+.example h1 {
+   font-weight: bold;
+   font-size: 125%;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+ol {
+   list-style-type: none;
+   list-style-type: decimal !ie; /*IE 7- hack*/
+   counter-reset: li-counter;
+}
+ol > li:before {
+   font-family: kingthings_foundationregular;
+   font-size: 110%;
+   content: counter(li-counter)". ";
+   counter-increment: li-counter;
+}
+li {margin-bottom: 1em;}
+.indent1 {margin-left: 3.5em;}
+.indent2 {margin-left: 7em;}
+.snuggley {margin-top: 0; margin-bottom: 0;}
+.snootySecondLine {
+   padding-left: 3em;
+   text-indent: -3em;
+}
+th, td {padding: .25em;}
+table {
+   border-collapse: collapse;
+   margin-right: auto;
+   margin-left: auto;
+}
+table, td, th {border: 1px solid black;}
+th.rotate {
+  height: 140px;
+  white-space: nowrap;
+}
+th.rotate > div {
+  transform: translate(0, 100px) rotate(270deg);
+  width: 30px;
+}
+.brutallyLargeTable td, .brutallyLargeTable th {
+   width: 30px;
+   height: 30px;
+}
+.brutallyLargeTable {margin-bottom: 1em;}
+</style>
+
+<div style="font-family: kingthings_foundationregular; font-size: 600%; text-align: center;">Critical!:* Go Westerly</div>
+<p style="text-align: center;">The Creative Commons Version</p>
+<p style="text-align: center;">by Geoff Bottone and Jonathan Lavallee</p>
+<p style="font-family: kingthings_foundationregular; color: #939598; text-align: center;">*Because. Punctuation is Still Funny.</p>
+
+<h1>Character Creation</h1>
+<h2>wherein we meet our adventurers and a bad idea</h2>
+
+<p>The first thing you’re going to want to do is figure out what sort of person you’ll play in the Kingdom of Westerly. Will you be a dashing warrior/chef, with a sword in one hand and a spatula in the other? An intrepid pig farmer looking to make a name for themselves as an adventurer? An aspiring musician seeking vengeance for their sabotaged performances? A retired Quillsman looking for a less dangerous line of work? An out of work chef who is wandering the world looking to hone her skills? Whatever you decide you want to be, you will build your character with the rules below.</p>
+
+<p>If you’d rather jump right to the action, we’ve got some characters all ready for you in the back of this section. We’ve done the “hard work” of building their stats and creating their backgrounds, and all you need to do is take them out on wild adventures. You should still take a glance at this section before you head out, just so you have an idea what the numbers on your character sheet mean.</p>
+
+<h2>What Makes Up a Character?</h2>
+
+<p>A character is a collection of four categories: <span class="bnb">Stats, Skills, Habits,</span> and <span class="bnb">Items</span>. Each of these defines your character in a different way. We’ll describe each of these categories in turn and we’ll tell you how many points you have to assign to your characters.</p>
+
+<h3>Stats</h3>
+
+<p>Characters are made up of four primary stats. These stats are bought with points. There are also three fixed stats which start at the same level for each character. Finally, there is an AC stat, which probably doesn’t mean what you think it means.</p>
+
+<h4>Primary Stats</h4>
+
+<p>The four primary stats are the basis for your character and will be used whenever you make dice rolls to attempt a task. These stats are:</p>
+
+<p><span class="bnb">Strength:</span> This represents your character’s physical strength, stamina and overall health. Characters with a high Strength can lift great weights, bend iron bars, hold you back by putting their hand on your head, pose particularly well, drink like a fish, and easily shrug off the effects of poisons, infections and traps. Their physiques decorate all the inspirational posters, urging everyone else to work harder and to lift heavier things. Characters with low Strength can get knocked over by a stiff wind, are the ones being held back by a hand on their heads, have a hard time lifting that second tankard of ale, and generally are the average everyday people who don’t get noticed for their physique.</p>
+
+<p><span class="bnb">Smarts:</span> This stat represents your character’s intelligence, problemsolving ability, and perception. Characters with high Smarts can negotiate the weird puzzles and traps that always seem to crop up in dungeons, translate ancient runes, play mind games, enjoy a good poem, and notice when monsters are sneaking up on them. They are the ones who write all sorts of books, from non-fiction treatises to the epic tales of heroes that live on for generations. People with low Smarts will have a narrower approach to problem-solving, usually involving smashing things to bits. They also don’t notice ambushes until the arrows are lodged in their chests, and spend their time writing things like role playing games.</p>
+
+<p><span class="bnb">Sneak:</span> This stat is your character’s general stealthiness and agility. Characters with high Sneak are quite adept at climbing sheer surfaces, balancing on precarious ledges, stealing gold from other players, stealing gold from the Bartender, tying other people’s shoelaces together when they’re not looking, and slipping past monstrous guardians without arousing suspicion. Those who aren’t as blessed in the Sneak department are the type of people who walk down the middle of the road, wearing lots of clanking armor and holding a bright lantern, all the while shouting, “Adventurer coming through! Bring out your Monsters!”</p>
+
+<p><span class="bnb">Smile:</span> Everyone loves a good smile, it can ease tense situations and bring sunshine to an overcast day. Smile is your character’s personality and charm. Those that have a high Smile can win over a crowd just by winking at them, or blowing a kiss. They always have their hair in place, their clothes are impeccable and they are never at a loss for words, wishing they had said something clever. Characters with low Smile often sit in the dark corners of taverns and brood menacingly. They learn to enjoy the taste of their toes, since they frequently put their feet in their mouths.</p>
+
+<p>All primary stats are measured on a scale from 1 to 6 with 6 representing the best anyone could ever be and 1 meaning the worst that is possible with anything regarding this Stat. The average for any Stat is 3, which puts you very firmly in the Grade C camp.</p>
+
+<p>Primary stats come into play whenever you want to roll some dice to see if your character does something amazing, which they should be doing on a regular basis.</p>
+
+<h4>Secondary Stats</h4>
+
+<p>These are the other stats. You’ll never use them to modify a dice roll and they tend to have very little in the way of variation, but your character just wouldn’t be an adventurer without them.</p>
+
+<p><span class="bnb">Damage:</span> This stat represents how much damage you can do with your standard, everyday gear. Even if you’ve had your equipment stolen by thieves, we can assume that as a seasoned adventurer, you can always pick up a stick and poke a monster in an ideal place to cause harm. Every character starts with a Damage of 2.</p>
+
+<p><span class="bnb">Fortitude:</span> Fortitude is the measure of your mettle and represents how much you can take before being knocked unconscious. When you get hit in combat, blasted by magic, stuck in a trap, get your finger caught in a door, fall off of something high or accidentally drink poison, your Fortitude will decrease. You want to make sure that this stat stays as high as you can. Every character starts with a Fortitude of 20.</p>
+
+<p>Now we’ll let you in on a secret. You don’t have to worry about dying in this game. I know for some people the gut wrenching terror of potential death is the only thing that keeps them in line, but bear with us. No matter how much damage you take, the worst thing that will happen to you is that you will pass out for a while. Hopefully you’ll wake up before the rest of your party gets knocked out or there might be some bigger repercussions, but that’s covered in Combat on Page 100.</p>
+
+<p><span class="bnb">AC:</span> Adventuring is thirsty business. With that in mind, we’ve created the AC stat, short for Alcohol Content, which tracks just how drunk your character has become. Some might scoff and say that this is irrelevant, but when you figure that your adventures will pretty much always start in a tavern, it only makes sense that the AC stat exists. The higher your AC, the faster you’ll pass out. If at any time your Fortitude is lower than your AC, you’ll pass out as if you were stone cold sober and had dropped to 0 or less.</p>
+
+<p><span class="bnb">Gold:</span> Gold! Those pretty, round pieces of metal with the faces of various rulers stamped on them. It’s how you’ll afford powerful items, weapons, and armor. Gold will allow you to enjoy the sweet comfort of the White Griffon Tavern. It will buy you some drinks, and then it will buy you some more drinks. Most importantly, it’s the way you and your fellow adventurers keep score. Nothing is more satisfying than leaving a dungeon with more gold than your bosom companions. Gold has some special rules that are covered in the Gold Section on page XX.</p>
+
+<h4>Stat Points</h4>
+
+<p>When you build your character, you get 12 points to spend on your Primary Stats. As a reminder, the maximum at each skill is 6 and the minimum is 1 which makes the average 3.</p>
+
+<h3>Skills</h3>
+
+<p>While stats are the innate qualities of your character, skills are things that your character has become good at through training. Your character will have obtained their skills through long hours of study, cultural immersion, out of sheer necessity during their previous adventures, and possibly through a correspondence class or two.</p>
+
+<p>Skills can expand your horizons in amazing and unexpected ways, mostly because you can have just about any skill that you want. It’s true! If you want a skill called, “Fantastical Scum Sucker” then you have it. If you think, “Best Sword Fighter in the World!” would be a handy skill to have, then you can take that, too.</p>
+
+<p>They key thing with skills is this: You can always try to convince the Bartender that you can use a skill, no matter how ridiculous the application it is, provided it makes at least some vague kind of sense for the situation at hand. So, if you think your sword fighting skill will help you julienne a salad, make your case.</p>
+
+<p>The Bartender, of course, has final say. If she says, “no!” emphatically while slamming her fist down, you’re going to have to back down and accept her judgement.</p>
+
+<p>That’s why you’re not going to get a laundry list of skills from us. We’d much rather have you use your imagination. Be creative, be fun, but if you end up with a skill you can’t use because your character hasn’t come across any Scum to Suck, don’t come crying to us.</p>
+
+<p>Skills fall into one of four categories, which are as follows:</p>
+
+<p><span class="bnb">Help You:</span> A Help You skill does exactly what it sounds like. It benefits your character and no one else. Many of the standard adventuring skills, like Jumping, Climbing, Dodging, Swimming, Picking Locks, and Hiding are Help You skills.</p>
+
+<p><span class="bnb">Help Others:</span> Not all skills are incredibly selfish. Some of them can actually help others. You use these skills to do something for another person, or a group of people. Any skill that keeps other people safe or supports them in some way is a good Help Others skill.</p>
+
+<p><span class="bnb">Hurt Others:</span> These are the skills that you use to hurt monsters and, sometimes, other people. You can hurt them immediately, by attacking them; a short time in the future, by making and setting traps; or even emotionally, by using hurtful words and gestures. Anything that you can think of that will give the bad guys big boo-boos falls into this category.</p>
+
+<p><span class="bnb">Cheating:</span> Cheating skills allow you to bend the rules of any game, even the rules of the game you’re currently playing, Critical!: Go Westerly. If you can cook up a really good reason why a Cheating Skill will work in a given situation, go for it. You might amuse your Bartender enough so that she’ll let you do what you want to do, because a happy Bartender is a benevolent Bartender.</p>
+
+<p>Skills are rated from 1 to 3. This value represents the bonus you get when using a Skill.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Urist Axebeard has a Hurt Others skill called You Never Met an Axe You Couldn’t Use to Kill Something (3). A huge door blocks Urist’s progress through the dungeon, so he decides to chop it to pieces. Urist wants to use his You Never Met an Axe You Couldn’t Use to Kill Something skill to increase his damage, because he’s not worried about the door trying to dodge his attacks. The Bartender agrees and Urist’s damage is now 5 instead of the base of 3.</p>
+
+<p>Later on, a Little, Agile Monster annoys Urist. This time, Urist wants to use his You Never Met an Axe You Couldn’t Use to Kill Something skill to add to his chance to chop up the Little, Agile Monster. This would add to his Strength of 5, giving him a total of 8. The Bartender agrees and sighs, knowing that things are going to go badly for her little creature.</p>
+</div>
+
+<p>When you make your character, you get 6 points for your skills. No skill can have a value higher than 3.</p>
+
+<h3>Habits</h3>
+
+<p>Everyone has habits. They are the little things you do, without thinking, in your everyday life. Characters in Critical!: Go Westerly also have habits. They are quick and easy guidelines on how to act in certain situations, which gives you an opportunity to role-play your character more effectively.</p>
+
+<p>Like Skills, Habits have a number associated with them. This number represents how ingrained this habit is, and how much it’s going to affect your character. If you feel that a Habit will help you out in a certain situation then you can try to convince the Bartender that you can use the Habit. If she agrees it will give you a bonus but you can only use the Habit once per encounter.</p>
+
+<p>However, Habits have a drawback. Because they are ingrained in your character, they can surface at inopportune times to cause problems. If you are in a situation where one of your Habits would cause a problem, the Bartender can use your Habit as a penalty. You can try to argue all you want, but usually it’s pretty futile as the Bartender takes great pleasure in making sure that the things you think will make your character better will actually make them worse.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Angelique Doto has the habit Adrenaline Junkie (2). This Habit will be of great benefit anytime Angelique would like to leap into action or do something dangerous. Whenever this happens, she gets a +2 bonus.</p>
+
+<p>However, if Angelique and her companions are parlaying with a powerful Lich, Angelique will have a really hard time just talking when she knows she could be doing something awesome. Her player may want to reason with the Lich for a variety of reasons, but the Bartender will gently remind her that “you know what? You really just want to leap into action!” and then will bestow a -2 penalty when she tries to negotiate with the Lich.</p>
+
+<p>That situation will probably end up with Angelique whooping in excitement as she vaults over a Fireball.</p>
+</div>
+
+<p>Your character always starts with the Habit, Gotta Get the Gold (3). You get 3 points to spend on additional Habits. Like Skills, Habits have a maximum value of 3.</p>
+
+<h3>Items</h3>
+<p>Items are specialized adventuring tools, weapons, and other gear. Items will either give fixed bonuses to any of your stats, or will give you a skill in which the value can only be used to increase the likelihood that you will succeed on certain types of rolls. Items can give you more Fortitude, they can allow you to deal more damage, they can give you greater Strength, Smarts, Sneak, or Smile, but that’s all they get to do.</p>
+
+<p>The benefit is that the Bartender doesn’t really have to be convinced too often when you want to use an Item. If you have a Magic Sword that gives you a +2 to damage, you’ll easily get a +2 to damage when you use that sword to make with the stabbing. However, you can never use your sword’s bonus in any other way. It won’t make your attacks more likely to land. It won’t heal you. It won’t light a campfire. It doesn’t hand out candy to small children. It only gives you +2 to damage.</p>
+
+<p>One thing that you need to be aware of concerning items is that they can be lost, broken, stolen, outdated, obsolete, ineffective, illusory, or anything else that might prevent you from using them. Monsters, as a general rule, will covet your items, and will happily use them against you if they can get their grubby paws on them.</p>
+
+<p>You’ll need to spend gold to purchase items. The bigger the item’s modifier, the more it costs. It costs 2 gold per +1 modifier, but you have to buy each level every time you want to raise that modifier. For instance, you can buy a coat which adds a +1 to your This Coat Makes Me Look More Important Than I Am skill for 2 gold. If you want to buy the same Coat but have it add a +2 to your skill, you would have to spend 6 gold: That’s 2 gold to make it +1 and an additional 4 gold to make it +2.</p>
+
+<p>That’s complicated, so we made a little chart that will help you figure out costs.</p>
+
+<table>
+<tr><th>Modifier</th><th>Breakdown of Cost</th><th>Cost</th></tr>
+<tr class="oddRow"><td>+1</td><td>2</td><td>2 Gold</td></tr>
+<tr class="evenRow"><td>+2</td><td>2+4</td><td>6 Gold</td></tr>
+<tr class="oddRow"><td>+3</td><td>2+4+6</td><td>12 Gold</td></tr>
+<tr class="evenRow"><td>+4</td><td>2+4+6+8</td><td>20 Gold</td></tr>
+<tr class="oddRow"><td>+5</td><td>2+4+6+8+10</td><td>30 Gold</td></tr>
+</table>
+
+<p>The pattern should be easy to follow after that. Keep in mind that items probably shouldn’t go beyond +5 total modifier unless they’re legendary items of awesome power.</p>
+
+<p>If you already have an item and you want to make it even better, you’ll have to pay gold to do so. That will be covered when we talk about Improving Yourself on page 115.</p>
+
+<p>If you need some inspiration for your item purchases, feel free to consult the short list below. If that’s not enough for you, we have a slightly longer list in the Bazaar section of the book.</p>
+
+<table>
+<tr><th>Item Name</th><th>Effect</th><th>Cost</th></tr>
+<tr class="oddRow"><td>10’ Pole</td><td>Detect Traps (Helps Self +1)</td><td>2 Gold</td></tr>
+<tr class="evenRow"><td>50’ of Rope</td><td>Rope Climbing (Helps Self +1)</td><td>2 Gold</td></tr>
+<tr class="oddRow"><td>Comfy Suit of Armor</td><td>-1 Opponent’s Damage</td><td>2 Gold</td></tr>
+<tr class="evenRow"><td>Especially Well-Made Sword</td><td>+1 Damage<br>Well Swung Sword (Hurt Others +1)</td><td>6 Gold</td></tr>
+<tr class="oddRow"><td>Impressive Adventurer Threads</td><td>+1 Smile</td><td>2 Gold</td></tr>
+<tr class="evenRow"><td>Magic Wand</td><td>+2 Damage</td><td>6 Gold</td></tr>
+<tr class="oddRow"><td>Magically Sharp Sword</td><td>+2 Damage<br>Well Swung Sword (Hurt Others +1)</td><td>12 Gold</td></tr>
+<tr class="evenRow"><td>Thief’s Tools</td><td>Locks go Bye-Bye (Helps Self +2)<br>Disarm that Trap! (Helps Self +2)</td><td>20 Gold</td></tr>
+<tr class="oddRow"><td>Spiky Shield</td><td>-1 Opponent’s Damage<br>Shield Spikes to the Face (Hurt Others +1)</td><td>6 Gold</td></tr>
+</table>
+
+<h3>Potions</h3>
+
+<p>We can hear the arguments brewing.<span class="funnyFootnote" onclick="alert('Courtesy of the Potion of Punslinging. Yours for 4 gold!');">*</span> Potions in their own section? Aren’t they just like every other item? The short answer is that while they’re similar to basic items, they have a few extra rules that require some explanation and, by extension, this section.</p>
+
+<p>Potions all have one thing in common: they all start out with an alcoholic base. Sure, an alchemist could use water, but alcohol is better for leaching the magical properties of the other ingredients. Plus, you know, water is full of germs.</p>
+
+<p>Few adventurers have an issue with the “secondary effects” caused by potions made predominantly of booze, but there is an obvious danger. Your potions may heal your wounds and give you special powers, but if you drink too many of them too quickly, you’ll be face down in a stupor long before you reach the good part of your dungeon crawl.</p>
+
+<p>There are three types of potions, and they’re described below.</p>
+
+<p><span class="bnb">Healing Potion:</span> These potions are the soothing salve that keep you conscious and keep your gold out of your friends’ pockets. Every 2 gold you spend on a healing potion will allow it to restore 3 Fortitude. Unfortunately it also raises your Alcohol Content by 1. This effect is cumulative, so if you spend 4 gold on a healing potion it will heal 6 Fortitude and increase your AC by 2.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Mabel has been taking a beating from a giant Vegetable Golem that’s ransacking the salad bar of her favourite restaurant. She takes a moment to knock back a healing potion she had stowed in her hat. This potion set her back 6 gold, so it’ll heal her 9 Fortitude and increase her Alcohol Content by 3.</p>
+</div>
+
+<p><span class="bnb">Boost Potion:</span> Sometimes, your regular stats just aren’t going to cut it. You’re not strong enough to tear that gate out of the wall, or you’re not charming enough to attract that interesting individual on the other side of the bar. Luckily, there are boost potions that can help! All you have to do is drink one and they’ll modify one stat, or give you a specific skill, until the end of the encounter. Every 2 gold you spend increases the modifier by +1 and adds 1 AC.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Daphadiana is locked behind a portcullis and her friends are on the other side fighting an Undead Lich Fiend that has been plaguing their steps for the past year. She knows that the Lich can’t stand upbeat music. Now if only she could get through the portcullis to aid her friends with a quick tempo theorbo number!</p>
+
+<p>She doesn’t have enough strength to open up the gate, but she does have a Super Strong Now (6) Potion on her (a bargain at 12 Gold!). She drinks it and her Strength and Alcohol Content both go up by 6. She tears through the gate and begins to rock out!</p>
+</div>
+
+<p><span class="bnb">Magic Potion:</span> This is a catch-all category that covers every other type of potion. Magic potions let you do cool and exciting things, like fly, turn invisible, or shape shift. When you consume a potion, the effect is described by the Bartender, including any bonuses or penalties you might suffer from drinking the potion. Each magical effect costs 4 Gold and raises your Alcohol Content by 2.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Stelph opened a chest and found a Potion of Fire Breathing. What a lucky find, especially considering the Ice Elementals in the next room. Smiling, he chugs the potion and begins to belch fire, gaining +3 to his Attack and 2 to his Alcohol Content.</p>
+
+<p>During the battle, Stelph tries to offer some helpful suggestions to Mabel. The Bartender says that Stelph has to make a roll because Mabel might not hear him since he’s going to be giving the instructions with a helping of firebreath. This roll will be at a -3 penalty.</p>
+</div>
+
+<p>It can be hard to come up with your own potions on the fly, so we have provided a small list of them for inspiration. There are more potions in the Bazaar section, as well.</p>
+
+<table>
+<tr><th>Potion Name</th><th>Effect</th><th>AC</th><th>Cost</th></tr>
+<tr class="oddRow"><td>Minor Healing Potion</td><td>+3 Fortitude</td><td>+1 AC</td><td>2 Gold</td></tr>
+<tr class="evenRow"><td>Potion of Avian Elixir</td><td>Turns you, but not your Items, into a bird</td><td>+2 AC</td><td>4 Gold</td></tr>
+<tr class="oddRow"><td>Potion of Combat Prowess</td><td>Gain Skill Super Sword Swinger +2 (Hurt Others)</td><td>+2 AC</td><td>4 Gold</td></tr>
+<tr class="evenRow"><td>Potion of Firebreathing</td><td>Gain Habit Fire Belcher +3</td><td>+2 AC</td><td>4 Gold</td></tr>
+<tr class="oddRow"><td>Potion of Invisibility</td><td>Gain Habit You Can’t See Me +3</td><td>+2 AC</td><td>4 Gold</td></tr>
+<tr class="evenRow"><td>Potion of Keen Awareness</td><td>Gain Skill Keen, just like the title, eyesight (Help Self) +2<br>Can See Invisible Things</td><td>+4 AC</td><td>8 Gold</td></tr>
+<tr class="oddRow"><td>Potion of Ogrish Strength</td><td>+2 Strength</td><td>+2 AC</td><td>4 Gold</td></tr>
+</table>
+
+<h3>Paying for Items, Potions and Increases</h3>
+
+<p>You can use the 10 gold provided by your Gold stat to buy yourself some Items, Potions or a single stat and/or skill bonus. The cost of a potion is listed above, but to increase a stat or skill by one costs 10 gold.</p>
+
+<p>This bonus can be added to any primary or secondary stat.</p>
+
+<h3>Well, That’s It!</h3>
+<p>Now you’re ready to go out adventuring! You might want to come up with a name, and a background and a history, but right now you’re ready to go forth and brave the elements!</p>
+
+<h3>WAIT! Aren’t there Elves and Dwarves in your world? Can’t I play one of those? Please!?</h3>
+
+<p>Sure. Every fantasy kingdom has elves and dwarves kicking around, and Westerly is no different. For the most part, elves and dwarves live insular existences in their own communities, but there are always one or two particularly adventurous specimens willing to travel into the outside world and deal with humans. If you really want to be an elf or a dwarf, that’s fine with us.</p>
+
+<h3>Elves</h3>
+
+<p>Elves are tall, slender, haughty beings with pointed ears. They firmly believe that they are more knowledgeable, more graceful, more elegant, more refined, and more capable than any other creature on the planet. Anything that you can do, an elf has already done better. And then they wrote a poem about it.</p>
+
+<p>They wear their hair long, mostly to show off how shimmery and elegant it is. Elvish hair comes in a wide assortment of colours, usually in the fluorescent spectrum. It has been said that if you see a group of elves from the sky, it looks like a bunch of walking flowers. If an elven child is born with brown or blond hair the other elves will quickly use magic to make sure that their hair becomes as chromatic as everyone else’s.</p>
+
+<p>Playing an elf provides no statistical bonus whatsoever. You will start with the same points as a human character. You’re still better than they are, though, because you’re an elf. Trust us.</p>
+
+<h3>Dwarves</h3>
+
+<p>Dwarves are squat, solid people who stand about three feet in height. They are as sturdy and immovable as the rocky depths in which they live, both physically and mentally. It is said that once a Dwarf has decided how to feel about something, that’s how they feel about it for pretty much the rest of their lives unless something really earthshattering happens.</p>
+
+<p>Unfortunately, dwarves tend to default to feeling rather negatively toward anyone who is not a dwarf or any object not of dwarven make. To make matters worse, if you are lucky enough to get a dwarf to think highly of you, it only takes one or two missteps before they start to view you with suspicion. Conversely, if they think you’re incompetent, it takes years of exemplary performance in order for that opinion to shift.</p>
+
+<p>Dwarves, like elves, believe that they are superior to all the other races. Unlike elves, they don’t feel the need to talk about how awesome they are. Anyone who looks at anything made by dwarves can easily see that they are superior, which is why dwarven crafts are so highly prized.</p>
+
+<p>Unlike elves, dwarves believe in simple, sturdy things. Dwarven hair colour comes in all sorts of shades, so long as it’s brown. Any dwarf with different colour hair either learns to like hats or is very quickly ostracized and exiled from the Dwarven city they call their home.</p>
+
+<p>Being a Dwarf provides no statistical bonus whatsoever to the game. You will start with the same points as a human character. You don’t need a numerical advantage, though. You can still briskly walk rings around them.</p>
+
+<h1>Character Creation Summary</h1>
+<ol>
+<li>
+   Spend your <span class="bnb">twelve (12) points</span> on your Primary Stats. <span class="bnb">One (1)</span> is the minimum that needs to be in each Stat while <span class="bnb">six (6)</span> is the maximum in any stat. The average is <span class="bnb">three (3)</span>.
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Strength:</span> How strong and tough you are</p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Smarts:</span> Intelligence and intuitiveness</p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Sneak:</span> How agile and stealthy you are</p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Smile:</span> How charming and likeable you are</p>
+</li>
+<li>
+   Fill out your Secondary Stats.
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Fortitude</span> starts at <span class="bnb">twenty (20).</span></p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Damage</span> starts at <span class="bnb">two (2).</span></p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">AC</span> starts at <span class="bnb">zero (0).</span></p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Gold</span> starts at <span class="bnb">ten(10).</span></p>
+</li>
+<li>
+   Spend your <span class="bnb">six (6)</span> points on your Skills. The maximum a Skill can be is <span class="bnb">three (3).</span>
+   <p class="indent1 snuggley">
+      Skills can be named anything you want, but fall into one of four categories.
+      <p class="indent2 snuggley snootySecondLine"><span class="bnb">Help Self</span> - Skills that will only help you</p>
+      <p class="indent2 snuggley snootySecondLine"><span class="bnb">Help Others</span> - Skills that will help a group of people (you can be included in this group)</p>
+      <p class="indent2 snuggley snootySecondLine"><span class="bnb">Hurt Others</span> - Skills that will hurt other people</p>
+      <p class="indent2 snuggley snootySecondLine"><span class="bnb">Cheat</span> - Skills that break all the rules</p>
+   </p>
+</li>
+<li>
+   Spend your <span class="bnb">three (3)</span> points on your Habits. The maximum a Habit can be is <span class="bnb">three (3)</span>. You can name a Habit anything you like. You also get the Habit <span>Gotta Get the Gold (3)</span> for free.
+</li>
+<li>
+   Spend your <span class="bnb">ten (10)</span> Gold on Items, Potions or One Extra Skill Point or Stat Point.
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Items</span> cost two (2) Gold per +1 Bonus and every extra +1 bonus must buy all the previous levels as well.</p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Healing Potions</span> cost <span class="bnb">two (2)</span> Gold per 3 Fortitude they heal</p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Boost Potions</span> cost 2 Gold per +1 Bonus</p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Magic Potions</span> cost 4 Gold per Effect</p>
+   <p class="indent1 snuggley snootySecondLine"><span class="bnb">Increasing a Skill or Stat by one (1) costs ten (10) gold.</span></p>
+</li>
+<li>
+   Pick a race, if you have to. The three races are Human, Elves and Dwarves. There is no particular bonus if you pick Elf or Dwarf
+</li>
+</ol>
+
+<h1>The Interactions</h1>
+<h2>where we discover how things are done … badly</h2>
+
+<h3>The First (and Only) Rule You Need</h3>
+<p>There are as many ways to do things in role-playing games as there are role-playing games themselves. Some games try to emulate reality as granularly as possible, using lots of esoteric rules, charts that refer to other charts, and pages of theoretical mathematics. The reasoning behind this is that real life is pretty complex, and crazy stuff can happen.</p>
+
+<p>Yes, it’s true, most of the time you’ll walk from point A to point B and get there just fine. But, depending on the weather, wind speed, time of day, ambient light, traction of your boots, your Dexterity, and the elasticity factor of the cartilage in your knees, there is a chance (however small), that you could fumble your Walk: Advanced Sauntering I roll, which will send you right to the Critical Perambulating Mishap Table, where you find that you not only shatter both your ankles, but that you also manage to fall and bash your forehead into the stomach of the wizard walking next to you. Then he rolls and finds out that the impact from your head ruptures his liver and both of his kidneys.</p>
+
+<p>It should be obvious by now that Critical! isn’t that sort of game. Pretty much everything that you try to do that’s more complicated than sliding off a bar stool involves two things: Consulting the Success Number table and rolling 2d6.</p>
+
+<h3>For the Bartender: Calculating Be Hit</h3>
+
+<p>When you want to do something challenging, the Bartender will give you a Be Hit number. This number is covered in more detail in the section on Challenges, but all you really need to know is that a Be Hit number represents how hard it is to deal with whatever Monster, Trap, or other element that you’re faced with. The higher the Be Hit, the harder the challenge.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Tara wants to chop an Iron Golem in its ferrous ankle. The Iron Golem has a <em>Be Hit</em> of 3.</p>
+</div>
+
+<p>The Bartender may decide that a challenge is more difficult because of extenuating circumstances. (Yes, the wall is tricky to climb, and the fact that you’re covered in salad dressing isn’t helping matters). In cases like these, the Bartender will have you add a Difficulty Number to the Be Hit.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Barnabas is ensnared in a goblin net trap. He wants to use magic to free himself from the net. The net has a <em>Be Hit</em> of 3 normally, but because Barnabas is trapped inside of it, the Bartender rules that he’ll have a much harder time making the arcane gestures that activate his spells. The Bartender gives the task a Difficulty of 3, giving Barnabas a total <em>Be Hit + Difficulty</em> of 6.</p>
+</div>
+
+<h3>For the Player: Calculating To Hit</h3>
+
+<p>Once the Bartender gives you your Be Hit, you will need to determine your chance To Hit. To do this, add your most appropriate stat to the following:</p>
+
+<p><strong>Any One Skill:</strong> Provided, of course, that you can convince the Bartender that your skill is appropriate to the situation.</p>
+
+<p><strong>Any Habits:</strong> Again, they have to be relevant to the situation at hand. Remember that Habits that would hinder you subtract from your To Hit.</p>
+
+<p><strong>The Bonuses of Items:</strong> If you’re using an Item (or if you’ve quaffed a potion) that would help you out, you add that bonus to your To Hit.</p>
+
+<p>Once you’ve gotten that number, look it up in the <strong>Stat + Skill + Bonuses</strong> column on the left of the chart. Then, follow along its row until you get to the column that matches the <strong>Be Hit + Difficulty</strong> the Bartender just gave you. The number listed is your <strong>Success Number</strong>.</p>
+
+<p>To make it easier we’ve included a handy, dandy chart. Not that you need it, but some people like that sort of thing.</p>
+
+<table class="brutallyLargeTable">
+<tr><th colspan="12">Be Hit + Difficulty</th></tr>
+<tr class="greyBack"><th rowspan="16" class="rotate"><div><span>Stat + Skill + Bonuses (or To Hit)</span></div></th><td>&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+<tr><td class="greyBack">1</td><td>7</td><td>8</td><td>9</td><td class="greyBack">10</td><td>11</td><td>12</td><td>12</td><td>12</td><td>12</td><td>12</td></tr>
+<tr><td class="greyBack">2</td><td>6</td><td>7</td><td>8</td><td class="greyBack">9</td><td>10</td><td>11</td><td>12</td><td>12</td><td>12</td><td>12</td></tr>
+<tr><td class="greyBack">3</td><td>5</td><td>6</td><td>7</td><td class="greyBack">8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td><td>12</td></tr>
+<tr><td class="greyBack">4</td><td>4</td><td>5</td><td>6</td><td class="greyBack">7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>12</td></tr>
+<tr><td class="greyBack">5</td><td>3</td><td>4</td><td>5</td><td class="greyBack">6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+<tr><td class="greyBack">6</td><td>2</td><td>3</td><td>4</td><td class="greyBack">5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+<tr><td class="greyBack">7</td><td>2</td><td>2</td><td>3</td><td class="greyBack">4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+<tr><td class="greyBack">8</td><td>2</td><td>2</td><td>2</td><td class="greyBack">3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+<tr><td class="greyBack">9</td><td>2</td><td>2</td><td>2</td><td class="greyBack">2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+<tr><td class="greyBack">10</td><td>2</td><td>2</td><td>2</td><td class="greyBack">2</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td class="greyBack">11</td><td>2</td><td>2</td><td>2</td><td class="greyBack">2</td><td>2</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+<tr><td class="greyBack">12</td><td>2</td><td>2</td><td>2</td><td class="greyBack">2</td><td>2</td><td>2</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+<tr><td class="greyBack">13</td><td>2</td><td>2</td><td>2</td><td class="greyBack">2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>3</td><td>4</td></tr>
+<tr><td class="greyBack">14</td><td>2</td><td>2</td><td>2</td><td class="greyBack">2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>3</td></tr>
+<tr><td class="greyBack">15</td><td>2</td><td>2</td><td>2</td><td class="greyBack">2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr>
+</table>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Tara has a Strength of 5, as well as the skill Unmatched Swordfighter skill (Hurt Others + 2). She has her Sword of Super Strength, which gives her a +1 to her Unmatched Swordfighter skill. Her total is an 8. Looking that up on the chart, we find that Tara has a Success Number of 2 against a Be Hit + Difficulty of 3.</p>
+
+<p>Barnabas has a Smarts of 6 and the skill A Wide Assortment of Practical Magical Spells (Cheating + 3), for a total of 9. A quick check of the chart reveals that Barnabas has a Success Number of 4 against a Be Hit + Difficulty of 6.</p>
+</div>
+
+<h3>Rolling the Dice</h3>
+<p>Once you have a Success Number, all that remains is to roll some dice. You only need two six-sided dice to play Critical!. Just roll them and add the results together. If you meet or beat your Success Number, you do whatever it was you were trying to do.</p>
+
+<p>No matter how easy or daunting a challenge is, the highest a Success Number will be is 12 and the lowest it can go is 2.</p>
+
+<p>It should be noted that you can always tell the Bartender you want to roll to see if you can do something. Want to tell if it’s sunny or rainy? Roll 2d6! Want to stab that small woodland creature and eat it for dinner? Roll 2d6! Undead Necromancer giving you the blues? Roll 2d6! That’s right! Even in the face of impossible tasks, unbeatable odds, the laws of physics, and common sense, you can always smile winningly at the Bartender, cup your dice in your hands, and say, “I’d like to roll for it!”</p>
+
+<p>Be warned: If you ask for a roll and manage to fail it, you should be prepared for the Bartender to get a little malicious.</p>
+
+<p>Also be warned: Things get interesting when you roll exactly what you need to succeed. We’ll talk about that in a minute. Trust us, it will be fun though it might depend on your definition of the word, “fun.”</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Tara really wants to stab that Iron Golem! She lets out a war whoop, readies her sword, and rolls some dice. Since her Success Number is a 2, she’s guaranteed to succeed. She rolls a 9 and smacks the Iron Golem!</p>
+
+<p>Barnabas attempts to magic himself out of the net. He needs to roll a 4 or more to succeed. He rolls a 5. Barnabas teleports himself three feet to the left. It’s not terribly exciting, but he’s free.</p>
+</div>
+
+<h3>Lending a Helping Hand</h3>
+<p>Sometimes, one of your adventuring companions will try to do something, and you will decide to help them. That’s terribly nice of you! Here’s how that works.</p>
+
+<p>You can only help one person at a time, and helping them takes pretty much all of your concentration.</p>
+
+<p>If you are able to justify your aid to the Bartender, you get to make a roll using the same Be Hit number that the person you are trying to help is rolling against. The difference is that you must use one of your Help Others skills and the appropriate stat.</p>
+
+<p>If you succeed, the person you’re helping gets to add your Help Others skill to their chance to succeed. This makes helping out really powerful, because they essentially get to use your skill like one of their skills. They can use it to give any stat a bonus, including Damage. However, in the event that your companion rolls a Critical! (the information on Criticals! is coming up) with your assistance, both of you are affected by the Critical! If your ally fails, then you’re both affected by the failure as well.</p>
+
+<p>If the Bartender rules that your skill isn’t helpful, that doesn’t mean you can’t try to lend a hand, it just means you get underfoot.</p>
+
+<p>If several people try to help out at the same time (and you’ll know when they do by the din of loudly shouted advice) nothing happens other than that your companion, who is trying really hard to do whatever it is they’re trying to do, feels a bit pressured and smothered and not at all in control of their personal space.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Marten is trying to pick a lock on a dungeon door. He’s got the skills and he’s got the tools, but this is a really impressive lock, and he’s not sure that he can do it.</p>
+
+<p>Daphadiana unstraps her theorbo and tells the Bartender that she is going to try and play a soothing, lock picking melody in order to help Marten to get into the right frame of mind to pick the lock.</p>
+
+<p>The Bartender is a bit dubious, but Daphadiana’s player insists that there is a fine, long-standing tradition of bards being able to give numerical bonuses to all sorts of tasks through the power of their music. The Bartender concedes and allows Daphadiana to make a roll against the same difficulty number as Marten would be rolling against. She succeeds and thus allows Marten to add Daphadiana’s Shred on the Theorbo (or Other Stringed Instrument) of 3 to his chance to succeed.</p>
+</div>
+
+<h3>Bribing Your Way To Success</h3>
+
+<p>So you figure out a way to use your highest Stat, convince the Bartender to add your best skill, and discover that the Monster’s Be Hit is such a comically low number that you’re sure that success is pretty much guaranteed. Smiling confidently, you roll your dice and…</p>
+
+<p>Oh, look, you failed. Fantastic.</p>
+
+<p>But don’t despair! There’s a way to change that depressing failure into a bright and shiny success. It’s bribery. And lots of it. All you need to do is give 4 gold to the Bartender to gain a +1 to the result of your dice roll. This can get ridiculously expensive if you miss a roll by more than a point or two, so you have to ask yourself if it’s really worth it. If it is, you can fork over that gold and succeed at whatever you were trying.</p>
+
+<p>Keep in mind that if you spend gold to increase your roll enough so that you succeed, this is treated as if you rolled exactly what you needed. If you want to know why this might be a problem, you’ll need to keep reading.</p>
+
+<p>Just so that we’re clear, you can only Bribe Your Way to Success if you have failed at your roll. As soon as you’ve managed to get to the target number…well, you’ll see.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Angelique leaps across a thousand-foot-deep chasm, confident that her Strength, her athletic prowess, and her borderline psychotic need for excitement will ensure her success. Her Success Number is 4. She rolls a 3.</p>
+
+<p>Angelique takes a quick glance down at the staggering drop beneath her and decides that she would like to not fall that far, thank you very much. She plunks 4 Gold into the outstretched hand of the Bartender and adds +1 to her roll, making it a 4.</p>
+
+<p>Woo hoo!</p>
+</div>
+
+<h3>Critical!</h3>
+
+<p>You get a Critical! when the number you roll on 2d6 is equal to your Success Number. That means that, no matter how easy or difficult something is, you always have a chance to score a Critical!</p>
+
+<p>When you roll a Critical!, something really good happens. Not only did you skewer that zombie on your sword, but you stabbed it so hard that you also impaled the zombie standing immediately behind it. They’re both dead. Undead. Re-dead. Whichever. Yay! The Bartender will decide and describe the wonderful thing that happens when you roll a Critical!</p>
+
+<p>Also when you roll a Critical!, something really bad happens. Yes, sure, you got two zombies with one sword blow, but now your blade is wedged in one or both of their breastbones. To make matters worse, they’re both toppling backward into a deep pit, so you have the choice of either letting go of (and losing) your sword, or falling with them into murky depths. Boo! The Bartender will decide and describe all the terrible things that happen when you roll a Critical!</p>
+
+<p>Lucky for you, the Bartender isn’t immune to bribery. If you want two really good things you can ask your Bartender what her price is. It may vary depending on how important a situation is, and how often she’s been bribed already, but it is gold that is well spent in order to make this happen.</p>
+
+<p>Be warned that the Bartender can always choose to refuse your bribe and let the bad thing occur. It never pays to annoy your Bartender.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Daphadiana finds herself surrounded by a horde of Stinky Bugbears. She makes with the people skills, hoping that she can talk her way out of the situation. Numbers are added together and charts are consulted, and Daphadiana learns that she has a Success Number of 6.</p>
+
+<p>She rolls 2d6 and gets a 6 exactly. Critical!</p>
+
+<p>Yay! The Bugbears are so impressed with Daphadiana that they are willing to escort her back to the surface of the dungeon.</p>
+
+<p>Boo! The Bugbear chieftain is suddenly smitten with Daphadiana. He proceeds to follow her around, making romantic gestures and punching other Bugbears who get too close to her.</p>
+
+<p>Daphadiana is not too keen on having a possessive Bugbear following her around, so she bribes the Bartender with 1 gold. The Bugbear love connection disappears. Instead, the Bugbear Chieftain gives Daphadiana a token of gratitude: A magical amulet!</p>
+</div>
+
+<h3>When the Bartender Rolls Dice</h3>
+
+<p>There will be times when the Bartender needs to roll dice. Usually this happens when the Bartender wants to have a monster hit the players. In cases like this, the Be Hit number is a player’s appropriate Stat. If the Bartender wants to damage a player, the Be Hit might be the player’s Strength or Sneak. If the Bartender wants to confuse players, the Be Hit could be the player’s Smarts.</p>
+
+<p>Once the Bartender decides what Stat becomes the Be Hit, the player may decide that they want to use a Skill, Habit, or Item to increase the Difficulty for the Bartender. Naturally, the player will have to make sure that their Skills, Habits, and Items are relevant to what the Bartender is trying to do.</p>
+
+<p>The Bartender then cross-references the Success Table using the To Hit of the Monster -- or Trap, or what have you -- and rolls 2d6. The Bartender follows the same rules for succeeding, failing, and rolling a Critical! as the players do.</p>
+
+<p>Note that when the Bartender Criticals!, the result is always one especially good thing and one especially bad thing for the Monster -- or Trap, or what have you -- in question. The Bartender cannot bribe themselves to make the Critical! do two good things. Such is the price of mostly limitless power.</p>
+
+<h2>Combat</h2>
+
+<p>There are a couple of extra rules that will come up in combat. These little provisos need to be clarified before people start harassing the Bartender about them.</p>
+
+<p>Initiative is not based on a set of numbers, or a bunch of dice. Initiative is decided by who you are.</p>
+
+<p>Unless the players are taken by surprised, tied up, stunned, or otherwise completely and utterly impaired, they always go first. The Bartender can use whatever method to figure out the order in which the players get to take their turn. We suggest pure whimsy, but your mileage may vary.</p>
+
+<p>After the players go, the Monsters get to go. As a general rule, the weakest monsters always act first, followed by the next weakest, and so on, until the strongest monsters have taken their turns. Unless, of course, that makes no sense in your scenario, in which case the Monsters take their turns in whatever order the Bartender decides.</p>
+
+<p>After all the monsters go, any helpful, non-monster NPCs get to take a turn.</p>
+
+<h3>Combat Rounds</h3>
+
+<p>This is an arbitrary unit of temporal measurement that helps to keep combat somewhat organized. A round lasts as long as it takes for every participant (both player and NPC) to take a turn. When that happens, the round ends and a new round begins, with the players taking their turns, followed by the Monsters, and so on.</p>
+
+<p>Use as many rounds as you need to resolve combat.</p>
+
+<h3>Damage</h3>
+
+<p>Whenever an attack hits, the target subtracts the Damage Stat of the attacker from their Fortitude. If a Monster is reduced to zero (0) Fortitude or less they die, yielding up their shiny treasures.</p>
+
+<p>Remember, you can use a skill to increase the amount of damage you deal instead of adding it to your chance To Hit. You can also use any nifty items that you may own to put the pain on the creepy creatures!</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>In a previous example, we discovered that Tara has a Strength + Sword Skill + Sword Item Bonus of 8. She’s rather glad that she is skilled in killing things with her sword, because a pack of Annoying Imps is crawling all over her. The Annoying Imps have a Be Hit of 4, which means that Tara must roll a 3 or more to hit them. She rolls an 11. SMACK!</p>
+
+<p>Tara’s sword strikes an Imp, who has 3 Fortitude. Tara has a Damage Stat of 2, but her sword also gives her a +1 to Damage. This does enough damage to reduce the Imp’s Fortitude to zero, killing it. Tara flings the broken body into the wall of the cavern as she prepares to strike down another of her assailants!</p>
+</div>
+
+<h3>Area Effect Damage</h3>
+
+<p>Whenever a wizard, or a thief with a freakish love of explosives, goes on an adventure, there is an extremely high probability that they will try to blast a number of foes with a single attack.</p>
+
+<p>Before you calculate the damage, you have to first figure out how big the attack is and how many foes could reasonably fit inside the blast radius. We’re not going to give you hard-and-fast radii or circumferences here; we figure you can make satisfyingly large explosions on your own.</p>
+
+<p>Then you have to determine if the attack hits everyone in the blast radius. If every Monster in the blast has the same difficulty to hit, and you roll high enough, then you hit all of them. If monsters have different difficulties to hit and you roll high enough to hit some and not others, then assume that the more agile/alert/nervous ones leap clear.</p>
+
+<p>Now, take your total Damage and divide it up evenly between the Monsters affected by the blast. If you do less than 1 Damage per Monster, you don’t hurt them at all, but you will terrify them badly enough so that they’re likely to run, surrender, or scream really, really loudly. If you do more than 1 Damage per Monster, then they take that damage as normal.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Barnabas’s path is blocked by a pushcart manned by four goblins. The goblins harass Barnabas and try to get him to spend his Gold on key chains, statues, snowglobes, and other gimcrack souvenirs so that he can remember his visit to the Razorback Mountains. Try as he might, Barnabas cannot talk the goblins out of trying to sell him something.</p>
+
+<p>“This is ridiculous!” he shouts. “Right, that does it. Fireball!”</p>
+
+<p>The goblins are all really close together, so they’ll all get hit by the searing ball of flame. He rolls and succeeds. Since all the goblins have the same difficulty to be hit, Barnabas hits them all.</p>
+
+<p>Before attacking, Barnabas decided to hold his Magic Missiles, Fireballs, Lightning Bolts, Etc. Skill in reserve and apply its rank of 2 to the Damage of his fireball. He does, increasing to 4. This, divided evenly amongst the four goblins, causes them each to take a point of Damage. It also lights the cart on fire.</p>
+
+<p>Barnabas continues on with his journey, while the goblins form a bucket brigade.</p>
+</div>
+
+<h3>Taking Damage Like a Main Character</h3>
+
+<p>When Monsters reach zero Fortitude or less, they just die. Player characters, on the other hand, are too important to meet such a pedestrian fate. After all, if they die, the fun stops, and we can’t have that! For this reason all player characters are subject to some special rules that ensure their survival.</p>
+
+<p>If a character’s Fortitude ever drops below zero, or below their current AC, whichever is higher, they fall unconscious. That’s it. They’re out. Good night. Beddy bye time. The character can’t do anything for a number of rounds equal to the number of Fortitude points below 0, or below their current AC.</p>
+
+<p>If the battle is still raging on once you’ve regained your senses, you’ll be able to stagger back into the fight if you want. However, you’ll be as weak as a kitten and just 1 Fortitude away from falling over again. If your Fortitude dropped below 0, you’ll have 1 Fortitude. If you fell below your AC then you’ll wake up with 1 more Fortitude than AC.</p>
+
+<p>If the fighting stops before you can wake up, then your companions will spend a few minutes going through your things, checking out what cool gear you have, and incidentally taking care of your battered body. You’ll wake up at 10 Fortitude and 0 AC, but you’ll have donated money to the, “Get My Friends Richer” charity.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Mabel, Angelique, and Marten had the bad luck of activating the cranky wizard’s magical defenses. In layman’s terms, this means they’re being attacked by three Iron Golems. Though they fight valiantly, their attacks don’t seem to bother the Iron Golems all that much. As they begin to fall back to regroup, the Iron Golems pummel the adventurers, doing 8 damage to each of them.</p>
+
+<p>Mabel has been having a rough time in the dungeon, and only has 3 Fortitude remaining. She is reduced to -5 Fortitude and passes out. She’ll remain unconscious for five rounds as she gathers her wits in Dreamland.</p>
+
+<p>Angelique has 15 Fortitude, but she’s been chugging potions like a dwarf (Urist would be so proud!), so her AC is now 10. The Iron Golem’s savage heel smash reduces her to 7 Fortitude. She would have been okay, except for the fact that she’s more than a little tipsy. Since her Fortitude is lower than her AC, she also passes out and will remain unconscious for 3 rounds.</p>
+
+<p>Marten, who has always tried to be really careful, has 12 Fortitude. The damage from the Iron Golem’s attack reduces his Fortitude to 4. Though badly wounded, he has the presence of mind to make himself as inconspicuous as he can. This is more difficult than you might think, considering his outrageous hat.</p>
+</div>
+
+<p>You’ll lose as much Gold as you had rounds left before you woke up split between all your remaining conscious companions. It may not always split perfectly, but then that’s something they have to sort out. You’re still too busy dealing with the monstrous headache that those monstrous creatures just gave you.</p>
+
+<h3>Total Party Wipe</h3>
+
+<p>Sometimes, things just don’t work out. The adventurers face more monsters than they can possibly slay, or inescapable death traps that they have inadvertently sprung, or the squamous and tentacled visage of the Ultimate Evil. There’s just enough time for a desperate grab for a weapon, or a hand flung across the face, or a short cry to one or more distant mothers. A moment later, everyone in the party lays strewn in broken heaps.</p>
+
+<p>When this happens the party wakes up somewhere safe, fully healed and rested. Maybe the Gods of the land smiled upon the adventurers’ best efforts, believing that they were good enough to warrant another try. Maybe the wizard had that contingency spell in place that automatically teleports them out of the frying pan. Maybe the wandering healer, Dex Machina, stumbled upon the party’s broken remains and took pity on them.</p>
+
+<div class="example">
+<h1>For Example:</h1>
+<p>Marten is the last adventurer standing, and is doing his best to fend off the assaults of three annoyed, animated, forty ton iron statues with naught but his puny rapier and the luck of his goddess. As one of the Iron Golems swings its massive leg to punt Marten into next week, Barnabas, Tara, and Urist make a timely entrance!</p>
+
+<p>The battle continues and four rounds pass. Angelique wakes up with 11 Fortitude and 10 AC. She realizes that her companions are in need of her help and she jumps headlong into the fray. Her timely aid makes short work of the last Iron Golem and the adventurers stand triumphant over their shattered adversaries!</p>
+
+<p>Mabel is still unconscious. The other adventurers take time bringing her to her senses and she awakens with 10 Fortitude. Since she had one round remaining before she could get back up, she donates 1 Gold to the “Get My Friends Richer” charity. While most of the other adventurers try to decide who should get this solitary Gold piece, Marten reaches over and deftly pockets it, since arguing like petty thieves just isn’t gentlemanly.</p>
+</div>
+
+<p>No matter how the rescue gets hand-waved, the characters will all wake up in the stables of the nearest White Griffon Tavern with perhaps the worst headaches they’ve ever had. They will all have 20 Fortitude and 0 Alcohol Content, but they will have lost all of their items and gold.</p>
+
+<p>Since the Tavern doesn’t serve destitute adventurers, the party will have to go back and get their stuff, or maybe cast about for a slightly less challenging adventure to earn enough gold to reline their pockets.</p>
+
+<h3>Healing</h3>
+
+<p>The easiest way to heal people during the course of the game is to use a healing potion. However, you’re going to run across a clever player who will wonder why they can’t use their Cheating or Help Others skill to restore some Fortitude to the other players. And they’re right, there’s nothing stopping them from doing that, but stopping every two seconds because someone got a scratch is annoying.</p>
+
+<p>Because The Healer decreed that Healing is Important, it should only be done when people are really hurt. For this reason, the To Hit for using a healing-type skill is equal to the target’s current Fortitude. That means that if a patient has 19 Fortitude, the To Hit is 19. Unless the healer rolls a 12, the patient’s Fortitude will remain the same. If the healer does roll a 12, then the result is a Critical!</p>
+
+<p>The amount that someone will get healed is the level of the Skill that the healer is using. If the healer had Dwarven First Aid at 3, then the patient would get back 3 Fortitude.</p>
+
+<h1>Interactions Summary</h1>
+
+<p class="bnb">Basic Interactions</p>
+
+<ol>
+   <li>
+      The Bartender determines the <span class="bnb">Be Hit</span>
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Monster Be Hit</span> or <span class="bnb">Difficulty</span> of the Action</p>
+      <p class="indent1 snuggley snootySecondLine">Modifiers for extra difficulty like environment effects, stress</p>
+   </li>
+   <li>
+      The Character rolling determines the <span class="bnb">To Hit</span>
+      <p class="indent1 snuggley snootySecondLine">Takes their chosen <span class="bnb">Stat</span></p>
+      <p class="indent1 snuggley snootySecondLine">Asks the Bartender if a <span class="bnb">Skill</span> they wish to use is applicable</p>
+   </li>
+   <li>
+      Check the Chart or use the formula:
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Formula is: 7+Be Hit-To Hit</span></p>
+   </li>
+   <li>
+      Roll 2d6
+   </li>
+   <li>
+      Check Results:
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Higher</span> is success.</p>
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Lower</span> is failure.</p>
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Exact</span> is Critical!</p>
+   </li>
+</ol>
+
+<p class="bnb">Advanced Interactions</p>
+<ol>
+   <li>
+      The Bartender determines the <span class="bnb">Be Hit</span>
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Monster Be Hit</span> or <span class="bnb">Difficulty</span> of the Action</p>
+      <p class="indent1 snuggley snootySecondLine">Modifiers for extra difficulty like environment effects, stress</p>
+   </li>
+   <li>
+      Does anyone help?
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">One Helper</span> gets to roll against the same <span class="bnb">Be Hit</span>. Success means that the other player gets to use their Help Others skill.</p>
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Two Helpers</span> get in the way and provide <span class="bnb">No Bonus</span>.</p>
+   </li>
+   <li>
+      The Character rolling determines the <span class="bnb">To Hit</span>
+      <p class="indent1 snuggley snootySecondLine">Takes their chosen <span class="bnb">Stat</span></p>
+      <p class="indent1 snuggley snootySecondLine">Asks the Bartender if a <span class="bnb">Skill</span> they wish to use is applicable</p>
+      <p class="indent1 snuggley snootySecondLine">Uses any successful <span class="bnb">Help Others Skills</span></p>
+   </li>
+   <li>
+      Check the Chart or use the formula:
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Formula is: 7+Be Hit-To Hit</span></p>
+   </li>
+   <li>
+      Roll 2d6
+   </li>
+   <li>
+      Check Results:
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Higher</span> is success.</p>
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Lower</span> is failure.</p>
+      <p class="indent1 snuggley snootySecondLine"><span class="bnb">Exact</span> is Critical!</p>
+   </li>
+   <li>If result is a failure, you can bribe the bartender with <span class="bnb">4 gold</span> to get a <span class="bnb">+1 bonus</span>.</li>
+</ol>
+
+<p class="bnb">Combat</p>
+<p class="bnb">Initiative</p>
+<ol>
+   <li>Players go First</li>
+   <li>Monsters go Next</li>
+   <li>Helpful NPCs go After</li>
+   <li>Unhelpful NPCs flail about and get in the way</li>
+</ol>
+
+<h1>Credits</h1>
+<p>
+<span class="bnb">Written by!:</span> Geoff Bottone and Jonathan Lavallee<br>
+<span class="bnb">Edited by!:</span> Amber Hines<br>
+<span class="bnb">Layout by!:</span> Jonathan Lavallee<br>
+<span class="bnb">Web layout by!:</span> Andrew Eakett
+</p>
+<p>
+<p>
+<span class="bnb">Fonts!:</span><br>
+* Kingthings Foundation by Kevin King<br>
+<a href="http://www.fontsquirrel.com/fonts/Kingthings-Foundation-">http://www.fontsquirrel.com/fonts/Kingthings-Foundation-</a><br>
+* Caudex by Hjort Nidudsson<br>
+<a href="http://www.fontsquirrel.com/fonts/caudex">http://www.fontsquirrel.com/fonts/caudex</a><br>
+<a href="http://caudex.sourceforge.net/">http://caudex.sourceforge.net/</a>
+</p>
+<p>
+<span class="bnb">Playtesting and Special Thanks to!:</span><br>
+Amber, Brennan, Curt, Kathryn, Heather, Eric, Avie, Kate, Vinny, Dave, Yvonne, Joe, Mary, Carmine, Catherine, Monkey, Rowan, Daegan, Matt, Sam, Jeff and Cliff.
+</p>
+<p>
+And Romper Room, because that’s what plays in my head each time I do any sort of Credits thing.
+</p>
+
+<p>All the words in this document are <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a></p>
+
+</body>
+</html>
