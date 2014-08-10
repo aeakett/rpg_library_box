@@ -1,0 +1,428 @@
+sup{
+	font-size: 67%;
+	vertical-align: 33%;
+}
+h2{
+	color: #A75A0C;
+	font-size: 81.2500%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 0.0000%;
+	margin-top: 0.4274%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+p{
+	margin: 0px;
+}
+sub{
+	font-size: 67%;
+	vertical-align: -10%;
+}
+h5{
+	color: #A75A0C;
+	font-size: 68.7500%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 0.0000%;
+	margin-top: 0.4274%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+h3{
+	color: #65380A;
+	font-size: 75.0000%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 0.0000%;
+	margin-top: 0.4274%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+h1{
+	color: #A75A0C;
+	font-size: 100.0000%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 0.0000%;
+	margin-top: 2.5641%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+h4{
+	color: #A75A0C;
+	font-size: 68.7500%;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 0.0000%;
+	margin-top: 0.4274%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+.s1{
+	color: #000000;
+	font-size: 68.7500%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 1.7094%;
+	margin-top: 0.0000%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+.s2{
+	padding-left: 0.0000%;
+	text-align: justify;
+	text-indent: 0.0000%;
+	white-space: normal;
+}
+.s3{
+	background: transparent;
+}
+.s4{
+	color: #000000;
+	font-size: 68.7500%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 0.0000%;
+	margin-top: 0.0000%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+.s5{
+	font-weight: bold;
+}
+.s6{
+	background: #FFFFFF;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: none;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s7{
+	background: #FFFFFF;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: none;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s8{
+	background: #FCE9D0;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s9{
+	background: #FCE9D0;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s10{
+	color: #000000;
+	font-size: 68.7500%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 0.0000%;
+	margin-top: 0.0000%;
+	padding-left: 0.0000%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+.s11{
+	background: transparent;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s12{
+	background: transparent;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: middle;
+	white-space: pre-wrap;
+}
+.s13{
+	margin-top: 2.5641%;
+	padding-left: 0.0000%;
+	text-indent: 0.0000%;
+}
+.s14{
+	background: #FFFFFF;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: none;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s15{
+	background: #FFFFFF;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: 1px solid #F6BE72;
+	border-top: none;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s16{
+	background: #FFFFFF;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: none;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s17{
+	background: #FCE9D0;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s18{
+	background: #FCE9D0;
+	border: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s19{
+	background: #FCE9D0;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s20{
+	background: transparent;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s21{
+	background: transparent;
+	border: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s22{
+	background: transparent;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s23{
+	background: #FCE9D0;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: 1px solid #F6BE72;
+	padding: 0.0% 0.0%;
+	text-align: left;
+	vertical-align: bottom;
+	white-space: pre-wrap;
+}
+.s24{
+	color: #000000;
+	font-size: 68.7500%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: 0.0000em;
+	margin-bottom: 1.7094%;
+	margin-top: 0.0000%;
+	padding-left: 7.6923%;
+	padding-right: 0.0000%;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0.0000%;
+	text-transform: none;
+}
+.s25{
+	text-indent: -3.8462%;
+}
+.s26{
+	background: #FFFFFF;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: none;
+	text-align: left;
+	vertical-align: top;
+	white-space: pre-wrap;
+}
+.s27{
+	background: #FFFFFF;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: none;
+	text-align: left;
+	vertical-align: top;
+	white-space: pre-wrap;
+}
+.s28{
+	background: #FCE9D0;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: top;
+	white-space: pre-wrap;
+}
+.s29{
+	background: #FCE9D0;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: top;
+	white-space: pre-wrap;
+}
+.s30{
+	background: transparent;
+	border-bottom: 1px solid #F6BE72;
+	border-left: none;
+	border-right: 1px solid #F6BE72;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: top;
+	white-space: pre-wrap;
+}
+.s31{
+	background: transparent;
+	border-bottom: 1px solid #F6BE72;
+	border-left: 1px solid #F6BE72;
+	border-right: none;
+	border-top: 1px solid #F6BE72;
+	text-align: left;
+	vertical-align: top;
+	white-space: pre-wrap;
+}
+.c1{
+	font-size: 100.0000%;
+}
+.c2{
+	font-size: 68.7500%;
+}
+.c3{
+	font-size: 75.0000%;
+}
+.c4{
+	font-size: 56.2500%;
+}
+.c5{
+	font-size: 81.8182%;
+}
+.c6{
+	font-size: 56.2500%;
+	font-weight: bold;
+}
+.c7{
+	font-size: 81.8182%;
+	font-weight: bold;
+}
+.c8{
+	color: #000000;
+	font-size: 100.0000%;
+	padding-right: 3.0%;
+}
+.c9{
+	font-size: 100.0000%;
+}
+.c10{
+	font-size: 81.2500%;
+}
+.c11{
+	color: #000000;
+	font-size: 100.0000%;
+	padding-right: 1.9%;
+}
