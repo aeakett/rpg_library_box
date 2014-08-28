@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'bleeding_cowboysregular';
+    src: url('../fonts/bleeding_cowboysregular.eot');
+    src: url('../fonts/bleeding_cowboysregular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bleeding_cowboysregular.woff') format('woff'),
+         url('../fonts/bleeding_cowboysregular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'creatorcredits_bb';
+    src: url('../fonts/creatorcredits-bb.regular.eot');
+    src: url('../fonts/creatorcredits-bb.regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/creatorcredits-bb.regular.woff') format('woff'),
+         url('../fonts/creatorcredits-bb.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'creatorcredits_bb';
+    src: url('../fonts/creatorcredits-bb.italic.eot');
+    src: url('../fonts/creatorcredits-bb.italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/creatorcredits-bb.italic.woff') format('woff'),
+         url('../fonts/creatorcredits-bb.italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'saddlebagregular';
+    src: url('../fonts/saddlebag.eot');
+    src: url('../fonts/saddlebag.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/saddlebag.woff') format('woff'),
+         url('../fonts/saddlebag.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anderson_four_feather_falls';
+    src: url('../fonts/anderson_four_feather_falls.eot');
+    src: url('../fonts/anderson_four_feather_falls.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/anderson_four_feather_falls.woff') format('woff'),
+         url('../fonts/anderson_four_feather_falls.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.clearfix:before, .clearfix:after {
+   content: " ";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+html {
+   -ms-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+a {
+   background: transparent;
+}
+
+small {
+   font-size: 80%;
+}
+
+p {
+   margin-top: 0em;
+}
+
+.title {
+      font-family: bleeding_cowboysregular;
+      font-size: 560%;
+      text-align: center;
+      margin-bottom: -.40em;
+   }
+   .subtitle {
+      font-family: anderson_four_feather_falls;
+      font-size: 225%;
+      text-align: center;
+   }
+   h1 {
+      font-family: anderson_four_feather_falls;
+      font-weight: normal;
+   }
+   .contents {
+      text-align: center;
+   }
+   .contents h1 {
+      font-size: 400%;
+   }
+   .contents a {
+      color: #000;
+   }
+   h2 {
+      font-family: saddlebagregular;
+      margin-bottom: 0em;
+      font-weight: normal;
+   }
+   h3 {
+      text-transform: uppercase;
+      font-size: 100%;
+      margin-bottom: .1em;
+      font-weight: normal;
+   }
+   .example, .credits, .license {
+      font-family: creatorcredits_bb, sans-serif;
+      font-size: 120%;
+   }
+   .license {
+      margin-top: 1em;
+   }
+   .credits {
+      text-align: center;
+   }
+   body {
+      font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+      font-size: 110%;
+      background-color: #ec9;
+   }
+
+   ul.leaders {
+      max-width: 40em;
+      padding: 0;
+      overflow-x: hidden;
+      list-style: none;
+   }
+   ul.leaders li:before {
+      float: left;
+      width: 0;
+      white-space: nowrap;
+      content: ". . . . . . . . . . . . . . . . . . . . "
+               ". . . . . . . . . . . . . . . . . . . . "
+               ". . . . . . . . . . . . . . . . . . . . "
+               ". . . . . . . . . . . . . . . . . . . . "
+   }
+   ul.leaders span:first-child {
+      padding-right: 0.33em;
+      background: #ec9;
+   }
+   ul.leaders span + span {
+      float: right;
+      padding-left: 0.33em;
+      background: #ec9;
+   }
