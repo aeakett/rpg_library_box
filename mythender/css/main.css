@@ -1,0 +1,119 @@
+
+@font-face {
+   font-family: 'whitedice';
+   src: url('whitedice.eot');
+   src: url('whitedice.eot?#iefix') format('embedded-opentype'),
+        url('whitedice.woff') format('woff'),
+        url('whitedice.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'blackdice';
+   src: url('blackdice.eot');
+   src: url('blackdice.eot?#iefix') format('embedded-opentype'),
+        url('blackdice.woff') format('woff'),
+        url('blackdice.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'mythicdice';
+   src: url('mythicdice.eot');
+   src: url('mythicdice.eot?#iefix') format('embedded-opentype'),
+        url('mythicdice.woff') format('woff'),
+        url('mythicdice.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'windlass';
+   src: url('windlass.eot');
+   src: url('windlass.eot?#iefix') format('embedded-opentype'),
+        url('windlass.woff') format('woff'),
+        url('windlass.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'amp';
+   src: url('amp.eot');
+   src: url('amp.eot?#iefix') format('embedded-opentype'),
+        url('amp.woff') format('woff'),
+        url('amp.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+span {text-decoration: blink;}
+
+.bigger {
+   font-size: 130%;
+}
+
+h1 {
+   font-family: windlass;
+   color: #91180e;
+   font-weight: normal;
+}
+
+h2 {
+   font-family: windlass;
+   font-weight: normal;
+}
+
+h3 {
+   font-variant: small-caps;
+}
+
+.gameKeyword {
+   color: #91180e;
+   font-variant: small-caps;
+   font-weight: bold;
+}
+
+.amp {
+   font-family: amp;
+   font-size: 115%;
+   vertical-align: baseline;
+   position: relative;
+   bottom: -.1em;
+}
+
+.mythender {
+   font-variant: small-caps;
+   font-weight: bold;
+}
+
+a {
+   color: #000;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.stormDie {
+   font-family: whitedice;
+}
+
+.thunderDie {
+   font-family: blackdice;
+}
+
+.bonusDie {
+   font-family: blackdice;
+   color: #91180e;
+}
+
+.mythicDie {
+   font-family: mythicdice;
+   color: #91180e;
+   font-size: 125%;
+}
