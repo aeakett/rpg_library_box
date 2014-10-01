@@ -117,3 +117,11 @@ a:hover {
    color: #91180e;
    font-size: 125%;
 }
+
+.boxed {background-color: green;}
+
+dl {background-color: pink;}
+
+.giftQual {background-color: teal;}
+
+.giftUpgrade {background-color: yellow;}
