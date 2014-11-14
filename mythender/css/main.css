@@ -70,6 +70,24 @@ h3 {
    font-variant: small-caps;
 }
 
+/* fix extra space between {h2|h3|h4} and paragraph */
+h2, h3, h4 {
+   margin-bottom: 0;
+   margin-top: .66em;
+}
+h2 + p, h3 + p, h4 + p {
+   margin-top: .33em;
+}
+
+p {
+   margin-top: .5em;
+   margin-bottom: .5em;
+}
+
+h2 {
+   margin-top: 1em;
+}
+
 /* A hack to make small caps here less bad... still needs some math to tweak percentages
 h3 {
    font-weight: 130%;
@@ -139,9 +157,12 @@ dl {background-color: pink;}
    color: #58585a;
    font-variant: small-caps;
    font-weight: bold;
+   margin-left: .5em;
 }
 
-.giftUpgrade {background-color: yellow;}
+.giftUpgrade {
+   margin-left: .5em;
+}
 
 figcaption {
    font-style: italic;
@@ -188,3 +209,6 @@ body {
 span.rap {
    font-style: italic;
 }
+
+/* pod to select which gifts to display */
+.giftsSelector {position:fixed;background:#fff4c8;border:1px solid #ffcc00;width:180px;z-index:100;font-size: 75%; font-family: sans-serif;}
